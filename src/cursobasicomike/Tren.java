@@ -7,8 +7,8 @@ public class Tren {
 	
 	public Tren() { //Bob el constructor
 		for(int i= 0; i<=4; i++) { //numero de vagones
-				vagones[i][0] = (i+1)*10; //Asientos Libres
-				vagones[i][1] = 0; //Asientos Ocupados
+				vagones[i][0] = (i+1)*10; //Cantidad de Asientos 
+				vagones[i][1] = 0; //Asientos Reservados
 
 		}
 		maquinista = "anonimo";
