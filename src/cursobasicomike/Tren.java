@@ -40,3 +40,27 @@ public class Tren {
 		
 	}
 }
+
+class Lujo extends Tren {
+	String camarero;
+	boolean bar;
+	
+	public Lujo() {
+		camarero = "anonimo";
+		bar = false;
+	}
+	
+	public Lujo(String nombre, boolean estado ) {
+		camarero = nombre;
+		bar = estado;
+	}
+	
+	public void statusBar(boolean estado) {
+		bar = estado;
+		if(bar) {
+			System.out.println("el bar esta abierto");
+		} else {
+			System.out.println("el bar esta cerrado");
+		}
+	}
+}
